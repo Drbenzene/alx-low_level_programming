@@ -2,14 +2,13 @@
 
 
 
- /**
-  * main - program that prints the numbers from 00 to 99
-  * Numbers must be separated by ,followed by a space
-  * Numbers should be printed in ascending order with 2 digits
-  * You can only use the putchar function
-  * Return: 0
-
-  */
+/**
+ * main - program that prints all possible different combinations of two digits
+ * Numbers must be separated by ,followed by a space
+ * The two digits must be different
+ * 01 and 10 are considered the same combination of the two digits 0 and 1
+ * Return: 0
+ */
 
 
 
@@ -19,7 +18,7 @@ int main(void)
 
 	int n1 = 48;
 
-	int n2 = 48;
+	int n2;
 
 	int com = 44;
 
@@ -27,7 +26,7 @@ int main(void)
 
 	{
 
-		n2 = 48;
+		n2 = n1 + 1;
 
 		while (n2 <= 57)
 
@@ -37,7 +36,7 @@ int main(void)
 
 			putchar(n2);
 
-			if (n1 != 57 || n2 != 57)
+			if (n1 != 56 || n2 != 57)
 
 			{
 

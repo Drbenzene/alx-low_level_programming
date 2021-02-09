@@ -1,0 +1,6 @@
+#include <holberton.h>
+/**
+ * main function that prints 10 times the alphabet, in lowercase
+ *Description - A function that prints 10 times the alphabet, in lowercae
+ * return - 0
+ */

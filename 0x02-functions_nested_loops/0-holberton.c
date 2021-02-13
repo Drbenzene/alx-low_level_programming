@@ -1,6 +1,7 @@
 #include <holberton.h>
 /**
- * main -Print "Holberton" followed by a new line
+ * main - Print Holberton followed by a new line
+ * main - void
  * Description - Your are not allowed to include standard library
  * Return - 0
 */

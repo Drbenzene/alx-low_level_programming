@@ -1,0 +1,1 @@
+This is the solution of the Array and Pointer Project

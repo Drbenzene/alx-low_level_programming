@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include "stdio.h"
+
 /**
  * _strcat - copy src string ontop of dest
  * @src: Char[] to append to dest

@@ -17,3 +17,8 @@ int _strlen(char *s);
  *_puts
  */
 void _puts(char *str);
+
+/**
+ *__rev
+ */
+void print_rev(char *s);

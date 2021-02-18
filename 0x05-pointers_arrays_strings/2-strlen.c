@@ -2,7 +2,7 @@
 /**
  *_strlen - returns strlen
  *@s: par
- *Return :int
+ *return :int
  */
 
 int _strlen(char *s)

@@ -15,19 +15,14 @@ int main(void)
 
 {
 
-	int n = 48;
+	int integer;
 
-	while (n <= 57)
-
+	for (integer = '0' ; integer <= '9' ; integer++)
 	{
-
-		putchar(n);
-
-		n += 1;
-
+		putchar(integer);
 	}
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 

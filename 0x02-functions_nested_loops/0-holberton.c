@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints out fn
+ * main - prints out Holberton
  * Return: 0
  */
 int main(void)

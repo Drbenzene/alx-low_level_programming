@@ -1,6 +1,6 @@
 #include <stdlib.h>
 /**
-* malloc_checked - performs a malloc, if failed exita
+* malloc_checked - performs a malloc, if failed exits
 *
 * @b: number of bytes to allocate
 *

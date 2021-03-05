@@ -3,7 +3,7 @@
 * print_triangle - Print Triangle
 * @size - Size of the Triangle
 * @_putchar - To print
-* @size < 0 - Print new Line
+* @size : The heigh of the triangle
 * @# - Print Triangle
 * Return - void
 */
@@ -13,7 +13,7 @@ void print_triangle(int size);
 {
 	int i;
 	int x;
-	int spaces
+	int spaces;
 
 	for (i = 0; i < size; i++)
 	{
@@ -21,7 +21,7 @@ void print_triangle(int size);
 		{
 			_putchar(' ');
 		}
-		for (x = 0; x <= i; x++);
+		for (x = 0; x <= i; x++)
 		{
 			_putchar('#');
 		}

@@ -2,7 +2,6 @@
 /**
  * _puts - prints a string followed by a newline
  * @str: string variable
- *
  */
 
 void _puts(char *str)

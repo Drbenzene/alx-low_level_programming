@@ -1,7 +1,9 @@
 #include "holberton.h"
+
 /**
- * _puts - prints a string followed by a newline
- * @str: string variable
+ * _puts - print a string to stdout
+ * @str: char array string type
+ * Description: Can only use _putchar
  */
 
 void _puts(char *str)
@@ -14,3 +16,4 @@ void _puts(char *str)
 	}
 	_putchar('\n');
 }
+

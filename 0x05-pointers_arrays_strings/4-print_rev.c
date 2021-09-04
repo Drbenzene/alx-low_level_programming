@@ -1,27 +1,50 @@
 #include "holberton.h"
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
 
 /**
- * print_rev - Print provided string in reverse
- * @s: Pointer to string to be reversed
- * Return: Always 0.
+
+ * print_rev - Prints a string in reverse
+
+ * @s: The string to print
+
+ *
+
+ * Return: void
+
  */
+
 void print_rev(char *s)
+  
 {
-	int i = 0;
+  
+  int x = 0;
+  
 
-	while (s[i] != '\0')
-	{
-		i++;
-	}
+  
+  while (s[x])
+    
+    {
+      
+      x++;
+      
+    }
+  
 
-	i--;
+  
+  x = x - 1;
+  
 
-	for (; i >= 0; i--)
-	{
-		_putchar(s[i]);
-	}
-
-	_putchar('\n');
+  
+  while (x >= 0)
+    
+    {
+      
+      _putchar(s[x]);
+      
+      x--;
+      
+    }
+  
+  _putchar('\n');
+  
 }

@@ -1,3 +1,4 @@
 # creating first makefile to make it executable
 all : main.c school.c
     gcc main.c school.c -0 school.c
+    

@@ -1,0 +1,9 @@
+#Creating a makefile with different variables
+#CC - Compiler
+#SRC - .C This is the file output
+
+CC = gcc
+SRC = main.c school.c
+all : main.c school.c m.h
+    $(CC) $(SRC) -o school
+    

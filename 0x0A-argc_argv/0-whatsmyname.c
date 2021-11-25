@@ -1,5 +1,6 @@
-#include "holberton.h
+#include "holberton.h"
 #include <stdio.h>
+
 /**
 * main - the name of program
 * @argc: arguement count
@@ -9,14 +10,7 @@
 
 int main (int argc, char *argv[])
 {
-	int count;
+	print("%s\n", argv[argc * 0]);
 
-	for (count = 0; count < argc; c++)
-	{
-		if (argc == 1)
-			printf(%s\n", argv[count]);
-		else
-			break;
-	}
-	return (0);
+	return(0);
 }
